@@ -1,5 +1,5 @@
-1. Why do you use "using strict" at the top of your JS files?
-2. What does line 3 mean?
-3. What is happening on lines 5-8 and why?
+1. Why do you use "using strict" at the top of your JS files? It enforces stricter parsing and error handling on the code at runtime. It also helps you write cleaner code and catch errors and bugs that might otherwise go unnoticed.
+2. What does line 3 mean? declares the variable named count and sets it to 0.
+3. What is happening on lines 5-8 and why? Lines 5-8 are selecting HTML elements and assigning them to variables
 4. If you implemented the functionality of the buttons,
-   why do you think I wrote the JS code the way I did?
+   why do you think I wrote the JS code the way I did? You wrote the JavaScript code this way to maintain a clear and modular structure, making it easier to manage and understand.

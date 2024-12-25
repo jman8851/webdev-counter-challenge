@@ -65,5 +65,34 @@ body {
     text-align: center;
 }
 
-@media (width >= 500px) {
+@media (min-width: 500px) {
+    :root {
+        --message-font-size: 2rem;
+        --count-font-size: 4rem;
+    }
+
+    .main {
+        width: 70%;
+    }
+    .app-card {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .btn-container: {
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .decrement-btn,
+    .reset-btn,
+    .increment-btn {
+        width: 90%;
+        
+    }
+
+    .text-container {
+        flex-direction: row;
+    }
 }
